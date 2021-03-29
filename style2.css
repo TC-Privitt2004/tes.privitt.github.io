@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: darkgrey;
+    background-image: url("sitebg.jpg");
+    color: #DCDCDC;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+	}
+#Header{
+	background: #8E0E89;
+}
+/* Heading*/
+		.Heading {color: #D4D4D4;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    text-align: center;
+    text-shadow: -3px -1px 0px #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+	fill: none;
+  stroke: black;
+  stroke-width: .5px;
+  stroke-linejoin: round;
+		}
+/* nav bar */
+.nav {
+    background: #E805D8;
+    text-shadow: none;
+    font-size: 29px;
+	outline-color: black;
+	text-align: center;
+}
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+/* Poem stuff */
+.poemtitle{
+color: #D4D4D4;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    text-shadow: -3px -1px 0px #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+	fill: none;
+  stroke: black;
+  stroke-width: .5px;
+  stroke-linejoin: round;	
+}
+.poems{
+	color: #D4D4D4;
+	  stroke: black;
+  stroke-width: .5px;
+  stroke-linejoin: round;
+	align-content:flex-start;
+}
+#Poemtit{
+	background: #52072F;
+	text-align: left;
+	padding: 7%;
+}
+#poem1{
+	background: #720A41;
+	text-align: left;
+}
+#Poemtit2{
+	background: #B515A0;
+	text-align: center;
+	padding:7%;
+}
+#poem2{
+	background: #980D71;
+	text-align: center;
+}
+#poemtit3{
+    background: #4A065C;
+    text-align: center;
+	padding:7%;
+}
+#poem3{
+    background: #630079;
+    text-align: center;
+}
+
+/*button style*/
+.button-wrapper {
+  display: block;
+  text-align: center;
+}
+.cta-button {
+  background-color: #9A158C;
+  color: #fff !important;
+}
+
+.cta-button:hover {
+  background-color: #FFB6C1;
+}.button {
+  border: none;
+  border-radius: 3em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: inline-block;
+  font-size: 1em;
+  padding: 1em 2em;
+  width: auto;
+}

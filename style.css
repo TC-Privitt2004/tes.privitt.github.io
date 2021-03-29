@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+			body {
+    background-color: darkgrey;
+    background-image: url("sitebg.jpg");
+    color: purple;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+#Header{
+	background: #8E0E89;
+}
+		.Heading {
+    color: #D4D4D4;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    text-align: center;
+    text-shadow: -3px -1px 0px #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+	fill: none;
+  stroke: black;
+  stroke-width: .5px;
+  stroke-linejoin: round;
+		}
+#srchbar{
+    float: none;
+    height: 85%;
+    text-align: center;
+    color: white;
+    background-color: #070404;
+    border: thick  #920D54;
+}
+.nav {
+    background: #E805D8;
+    text-shadow: none;
+    font-size: 29px;
+	outline-color: black;
+	color:#000000;
+	text-align: center;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.hello{
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    color: #EDE6E7;
+    text-shadow: -3px -1px 0px #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+    background-color: #920D54;
+}
+#pic{
+	width: 45%;
+	height: 45%;
+}

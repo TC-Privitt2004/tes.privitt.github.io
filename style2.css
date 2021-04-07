@@ -36,6 +36,19 @@ body {
   color: white;
 }
 /* Poem stuff */
+main{
+	display: grid; 
+	grid-template-columns: auto auto auto;
+	margin: 0px auto;
+	align-content: center;
+}
+.poems{
+	color: #D4D4D4;
+	  stroke: black;
+  stroke-width: .5px;
+  stroke-linejoin: round;
+	align-content:flex-start;
+}
 .poemtitle{
 color: #D4D4D4;
     font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
@@ -45,13 +58,8 @@ color: #D4D4D4;
   stroke-width: .5px;
   stroke-linejoin: round;	
 }
-.poems{
-	color: #D4D4D4;
-	  stroke: black;
-  stroke-width: .5px;
-  stroke-linejoin: round;
-	align-content:flex-start;
-}
+
+
 #Poemtit{
 	background: #52072F;
 	text-align: left;
